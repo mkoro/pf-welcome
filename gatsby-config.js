@@ -2,14 +2,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'koroknay.tech',
+    description: 'Personal website of web developer Marton Koroknay',
+    keywords: 'frontend, front-end, fullstack, full-stack, developer, koroknay, portfolio',
+    siteUrl: 'https://koroknay.tech',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: 'Marton Koroknay',
+      url: 'https://koroknay.tech',
+      email: 'm_koro@outlook.com'
     }
   },
   plugins: [
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://koroknay.tech'
       }
     },
     'gatsby-plugin-emotion',

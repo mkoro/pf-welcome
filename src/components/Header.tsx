@@ -11,6 +11,7 @@ const StyledHeader = styled.header`
   padding: 0 ${dimensions.containerPadding}rem;
   background-color: ${colors.brand};
   color: ${transparentize(0.5, colors.white)};
+  display: none;
 `
 
 const HeaderInner = styled(Container)`
@@ -35,10 +36,10 @@ interface HeaderProps {
   title: string
 }
 
-const Header: React.FC<HeaderProps> = ({ title }) => (
+const Header: React.FC<HeaderProps> = () => (
   <StyledHeader>
     <HeaderInner>
-      <HomepageLink to="/">{title}</HomepageLink>
+      <HomepageLink to="/">koroknay.tech</HomepageLink>
     </HeaderInner>
   </StyledHeader>
 )
